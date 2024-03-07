@@ -25,6 +25,8 @@ RUN apt-get update \
 	libhidapi-dev \
 	libmbedx509-0 \
 	libmbedtls-dev \
+ 	vim \
+  	nano \
 	&& locale-gen en_US.UTF-8
 	
 RUN \
